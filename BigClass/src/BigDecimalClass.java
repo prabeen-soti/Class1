@@ -12,6 +12,7 @@ public class BigDecimalClass {
 		BigDecimal _b = new BigDecimal("0.04");
 		BigDecimal _c = _b.subtract(_a);
 		System.out.println(_c);
+		System.out.println(Double.MAX_VALUE);
 	}
 
 }
