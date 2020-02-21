@@ -1,0 +1,10 @@
+
+public class MathClass {
+
+	public static void main(String[] args) {
+		int a = 456;
+		int b = 76;
+
+	}
+
+}
