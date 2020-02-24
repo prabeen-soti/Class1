@@ -18,10 +18,9 @@ public class NumberFormatDemo {
 		NumberFormat nfIndia = NumberFormat.getInstance(Locale.forLanguageTag("hi"));
 		System.out.println(nfIndia.format(d));
 		
-        Locale indiaLocale = new Locale("en", "IN");
-        NumberFormat india  = NumberFormat.getCurrencyInstance(indiaLocale);
+        Locale indiaLocale = new Locale("in", "IN");
+        NumberFormat india  = NumberFormat.getInstance(indiaLocale);
         System.out.println(india.format(d));
-
 	}
 
 }
