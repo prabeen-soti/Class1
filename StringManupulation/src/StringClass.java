@@ -87,9 +87,6 @@ public class StringClass {
 		String bcd = "ABC";
 		System.out.println(abc.compareTo(bcd));
 		
-		
-		
-		
 	}
 
 }
