@@ -1,8 +1,8 @@
-Write a programme to get first name , last name , age , date of birth(in 2015-09-23 format ), 
+Write a programme to get first name , last name ,email, age , date of birth(in 2015-09-23 format ), 
 address ( as an object which contains 
-country, state, city name) from console and display all info by using override toString method of subclass 
-and also call tostring of superclass to display address data 
+country, state, city name) from console and display all info by using override toString method of user
+and also call tostring of address to display address data 
 
 use regex to validate input of email and date of birth 
 
-display date of birth in 23/09/2015 formate
+display date of birth in 23/09/2015 formatte
