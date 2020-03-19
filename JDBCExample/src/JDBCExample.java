@@ -22,7 +22,7 @@ public class JDBCExample {
 		while(resultSet.next()) {
 			System.out.println(resultSet.getInt(1)+"   "+ resultSet.getString(2));
 		}
-		String createQuery = "INSERT INTO user (`name`) VALUES ('Bimal')";
+		String createQuery = "INSERT INTO user (`id`,`name`) VALUES ('101','Bimal')";
 		statement.executeUpdate(createQuery);
 		String deleteQuery ="DELETE FROM user WHERE id=102";
 		statement.executeUpdate(deleteQuery);
