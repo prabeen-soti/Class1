@@ -31,7 +31,6 @@ public class PreparedStatementwithObject {
 		user.setName(name);
 		
 		saveData(user);
-		
 
 	}
 
